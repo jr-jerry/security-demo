@@ -13,25 +13,3 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-
-#
-#  # Enable the H2 web console (optional but recommended for dev)
-#  spring.h2.console.enabled=true
-#
-#  # Persistent file-based connection pathing
-#  # Relative path (creates a 'data' folder in your project root)
-#  spring.datasource.url=jdbc:h2:file:./data/testdb;DB_CLOSE_DELAY=-1
-#
-#  # Alternative absolute path examples:
-#  # Linux/macOS: jdbc:h2:file:/data/testdb;DB_CLOSE_DELAY=-1
-#  # Windows:     jdbc:h2:file:C:/data/testdb;DB_CLOSE_DELAY=-1
-#
-#  # Database credentials and driver
-#  spring.datasource.driver-class-name=org.h2.Driver
-#  spring.datasource.username=sa
-#  spring.datasource.password=password
-#
-#  # Hibernate / JPA configuration
-#  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-#  # Use 'update' so Hibernate doesn't wipe your data on every restart
-#  spring.jpa.hibernate.ddl-auto=update
